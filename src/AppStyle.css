@@ -1,0 +1,60 @@
+.left{
+    float: right;
+}
+
+body{
+    background-color: #FCF6F5FF;
+}
+
+header{
+    background-color: #990011FF;
+    min-width: 300px;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+ a img{
+    padding-top: 5px;
+    float: left;
+ }
+
+#headerul{
+    padding-right: 200px;
+    background-color:#990011FF;
+    overflow: hidden;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.nContainer{
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 100%;
+    max-width: 1272px;
+    margin: 0 auto;
+}
+
+#contactContainer{
+    background-color: #990011FF;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contactContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#contactContainer .cul{
+    display:inline-table;
+    width: 10%;
+    padding: 10px;
+   
+}
+
+

@@ -1,0 +1,145 @@
+
+body{ 
+    background-color: #FCF6F5FF;
+}
+
+.infText{
+    font-size: small;
+    float: left;
+}
+#bgnimg{
+    background-image: url(../../image/klipklap.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position-x: center;
+    padding-bottom: 50px;
+}
+
+.contentContainer{
+    max-width: 1000px;
+    margin: auto;
+   
+}
+
+.centerText{
+    text-align: center;
+    padding-top: 100px;
+    font-size: larger;
+}
+
+#edit{
+    font-size: 25px;
+}
+
+form.example input[type=number] {
+    padding: 10px;
+    font-size: 17px;
+    border: 2px solid#990011FF;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #990011FF;
+    color: white;
+    font-size: 17px;
+    border: 2px solid #990011FF;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: rgb(78, 11, 11)
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  #sContainer{
+      padding-top: 40px;
+      
+      text-align: center;
+      font-weight: bolder;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;  
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.row{
+padding-left:30px;
+margin: 0 auto;    
+max-width: 1000px;
+
+}
+
+#infImg{
+max-width: 100%;
+max-height: 100%;
+display: block; /* remove extra space below image */
+}
+
+#infoContainer{
+    text-align: center;
+}
+#infTitle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#descContainer{
+padding-top: 30px;
+margin: 0 auto;
+max-width: 920px;
+padding-bottom: 30px;
+
+}
+
+#descText{
+    color: #FCF6F5FF;
+    padding-top: 20px;
+    padding-left: 30px;
+    background-color:#990011FF;
+    padding-bottom: 10px;
+}
+

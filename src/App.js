@@ -1,6 +1,6 @@
 import React from 'react';
 import HomePage from './Pages/Home/Home'
-
+import Modal from './Modal/Modal'
 
 import {
   BrowserRouter as Router,
@@ -97,7 +97,7 @@ function Home() {
 }
 
 function About() {
-  return <h2>About</h2>;
+  return <Modal/>;
 }
 
 function Users() {

@@ -4,10 +4,6 @@ import './Login.css'
 
 
 
-
-
-
-
 const Modal = (props) => {
     
     
@@ -36,7 +32,7 @@ const Modal = (props) => {
 
 
 
-        
+
     }
     
     

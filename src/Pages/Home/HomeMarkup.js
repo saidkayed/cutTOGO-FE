@@ -28,16 +28,16 @@ const HomeMarkup = (props) => {
                 <div class="row">
                     <div class="column" style={{ backgroundColor: "#990011FF" }}>
 
-                        <img id="infImg" src={require('../../image/lady.jpg')} />
+                        <img id="infImg" src={require('../../image/lady.jpg')} alt="" />
 
                         <p class="infText">Some text..</p>
                     </div>
                     <div class="column" style={{ backgroundColor: "#990011FF" }}>
-                        <img id="infImg" src={require('../../image/lady.jpg')} />
+                        <img id="infImg" src={require('../../image/lady.jpg')} alt="" />
                         <p class="infText">Some text..</p>
                     </div>
                     <div class="column" style={{ backgroundColor: "#990011FF" }}>
-                        <img id="infImg" src={require('../../image/child.jpg')} />
+                        <img id="infImg" src={require('../../image/child.jpg')} alt="" />
                         <p class="infText">Some text..</p>
                     </div>
 
